@@ -1,0 +1,125 @@
+@font-face {
+  font-family: "freshman";
+  src: url("../font/type_machine/Type\ Machine.ttf");
+}
+
+body {
+  background: black;
+  font-family: "freshman";
+  overflow: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  /* border: 2px solid red; */
+  height: 60px;
+  min-width: 100%;
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.075) 0 1px;
+  transition: all 0.3s cubic-bezier(0.6, 0.4, 0, 1);
+  justify-content: space-between;
+}
+
+.left-item {
+  color: white;
+  /* border: 2px solid yellow; */
+}
+
+.right-item {
+  color: white;
+  /* border: 2px solid yellow; */
+}
+
+.left-item a {
+  color: white;
+}
+
+.right-item a {
+  color: white;
+}
+
+.section-container {
+  /* border: 5px solid yellow; */
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.background-video {
+  /* border: 5px solid red; */
+  object-fit: contain;
+  position: absolute;
+  top: -20;
+  z-index: -1;
+
+  width: 100%;
+  height: auto;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.protflio-video {
+  /* border: 2px solid red; */
+  width: 50%;
+  height: 400px;
+
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+}
+
+.protflio-video > p {
+  color: white;
+}
+
+/* Hero Section */
+.hero {
+  color: white;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: large;
+}
+
+.content {
+  color: white;
+}
+
+.content > p {
+  text-align: center;
+}
+
+.intro {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: white;
+  text-align: center;
+}
+
+.cure {
+  font-size: 36px;
+  color: red;
+  text-align: center;
+  margin: 20px 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+.highlight {
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
