@@ -1,11 +1,12 @@
 @font-face {
-  font-family: "freshman";
-  src: url("../font/type_machine/Type\ Machine.ttf");
+  font-family: "RifficFree";
+  src: url("../font/RifficFree-Bold.ttf");
 }
 
 body {
   background: black;
-  font-family: "freshman";
+  font-family: "RifficFree";
+  letter-spacing: 1px;
   overflow: hidden;
 }
 

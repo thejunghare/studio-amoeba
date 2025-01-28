@@ -1,11 +1,12 @@
 @font-face {
-  font-family: "freshman";
-  src: url("../font/type_machine/Type\ Machine.ttf");
+  font-family: "RifficFree";
+  src: url("../font/RifficFree-Bold.ttf");
 }
 
 body {
   background: black;
-  font-family: "freshman";
+  font-family: "RifficFree";
+  letter-spacing: 1px;
   overflow: hidden;
 }
 
@@ -35,6 +36,7 @@ a {
 
 .right-item {
   color: white;
+  text-decoration:dashed;
   /* border: 2px solid yellow; */
 }
 
@@ -111,7 +113,7 @@ a {
 
 .cure {
   font-size: 36px;
-  color: red;
+  color: white;
   text-align: center;
   margin: 20px 0;
   font-weight: bold;
@@ -128,5 +130,11 @@ a {
   .protflio-video {
     /* border: 2px solid red; */
     width: 100vw;
+    height: 80vh;
+    margin: 15px;
+  }
+
+  .cure {
+    font-size: 25px;
   }
 }
