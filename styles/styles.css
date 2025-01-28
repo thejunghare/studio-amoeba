@@ -81,3 +81,16 @@ a {
   position: relative;
   z-index: 1;
 }
+
+@media only screen and (min-width: 320px) {
+  .protflio-video {
+    /* border: 2px solid red; */
+    width: 90%;
+    height: 45%;
+    /* margin: 15px; */
+  }
+
+  .cure {
+    font-size: 25px;
+  }
+}
